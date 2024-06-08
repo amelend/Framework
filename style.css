@@ -1,0 +1,266 @@
+    /*estilo para la pagina inicio*/
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f6f3f3;
+      }
+      header {
+        background-color: #f77777;
+        color: #0b0b0b;
+        text-align:center;
+       /* display: flex;*/
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px; /* Ajustar el espacio alrededor de las imágenes */
+        margin: auto;
+         height: 300px; /* Ajustar la altura del header */
+      }
+      main {
+        text-align: center end justify;
+          padding: 20px;
+        }
+    
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+          text-align: center;  
+        }
+      /* Estilos adicionales */
+         .carousel-item img {
+        width: 500px; /* Hacer que las imágenes del carrusel ocupen todo el espacio disponible */
+        height: 100px;
+      }
+
+      header img {
+        width: 300px; /* Ajusta el ancho según el tamaño de tu logo */
+        height: 200px; /* Esto mantiene la proporción del logo */
+        text-align: center;
+      }
+      
+      nav {
+        background-color: #ed4046;
+        padding: 10px;
+
+        text-align: center;
+      }
+      nav a {
+        color: #e0d0d0;
+        text-decoration: none;
+        margin: 20px;
+      }
+      nav a:hover {
+        text-decoration:none;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .li{
+        background-color: brown;
+        color: #ed4046;
+      }
+
+
+      @media only screen and (max-width: 600px){
+            /*estilo para la pagina inicio*/
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f3f3;
+    }
+    header {
+      background-color: #f77777;
+      color: #0b0b0b;
+      text-align:center;
+     /* display: flex;*/
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px; /* Ajustar el espacio alrededor de las imágenes */
+      margin: auto;
+       height: 300px; /* Ajustar la altura del header */
+    }
+    main {
+      text-align: center end justify;
+        padding: 20px;
+      }
+  
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;  
+      }
+    /* Estilos adicionales */
+       .carousel-item img {
+      width: 500px; /* Hacer que las imágenes del carrusel ocupen todo el espacio disponible */
+      height: 100px;
+    }
+
+    header img {
+      width: 300px; /* Ajusta el ancho según el tamaño de tu logo */
+      height: 200px; /* Esto mantiene la proporción del logo */
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #ed4046;
+      padding: 10px;
+
+      text-align: center;
+    }
+    nav a {
+      color: #e0d0d0;
+      text-decoration: none;
+      margin: 20px;
+    }
+    nav a:hover {
+      text-decoration:none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .li{
+      background-color: brown;
+      color: #ed4046;
+    }
+      }
+      @media only screen and (max-width: 300px){
+    /*estilo para la pagina inicio*/
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f3f3;
+    }
+    header {
+      background-color: #f77777;
+      color: #0b0b0b;
+      text-align:center;
+     /* display: flex;*/
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px; /* Ajustar el espacio alrededor de las imágenes */
+      margin: auto;
+       height: 300px; /* Ajustar la altura del header */
+    }
+    main {
+      text-align: center end justify;
+        padding: 20px;
+      }
+  
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;  
+      }
+    /* Estilos adicionales */
+       .carousel-item img {
+      width: 500px; /* Hacer que las imágenes del carrusel ocupen todo el espacio disponible */
+      height: 100px;
+    }
+
+    header img {
+      width: 300px; /* Ajusta el ancho según el tamaño de tu logo */
+      height: 200px; /* Esto mantiene la proporción del logo */
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #ed4046;
+      padding: 10px;
+
+      text-align: center;
+    }
+    nav a {
+      color: #e0d0d0;
+      text-decoration: none;
+      margin: 20px;
+    }
+    nav a:hover {
+      text-decoration:none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .li{
+      background-color: brown;
+      color: #ed4046;
+    }
+      }
+      @media only screen and (max-width: 1200px){
+    /*estilo para la pagina inicio*/
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f3f3;
+    }
+    header {
+      background-color: #f77777;
+      color: #0b0b0b;
+      text-align:center;
+     /* display: flex;*/
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px; /* Ajustar el espacio alrededor de las imágenes */
+      margin: auto;
+       height: 300px; /* Ajustar la altura del header */
+    }
+    main {
+      text-align: center end justify;
+        padding: 20px;
+      }
+  
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;  
+      }
+    /* Estilos adicionales */
+       .carousel-item img {
+      width: 500px; /* Hacer que las imágenes del carrusel ocupen todo el espacio disponible */
+      height: 100px;
+    }
+
+    header img {
+      width: 300px; /* Ajusta el ancho según el tamaño de tu logo */
+      height: 200px; /* Esto mantiene la proporción del logo */
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #ed4046;
+      padding: 10px;
+
+      text-align: center;
+    }
+    nav a {
+      color: #e0d0d0;
+      text-decoration: none;
+      margin: 20px;
+    }
+    nav a:hover {
+      text-decoration:none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .li{
+      background-color: brown;
+      color: #ed4046;
+    }
+      }
+
+

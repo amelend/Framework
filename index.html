@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Destinos</title>
+    <!-- Importar Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Importar Iconos de Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <header> 
+        <!-- Logo -->
+        <a href="#" class="brand-logo"><img src="./Img/logo.png" alt="Logo de la empresa"></a>
+    
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <!-- Barra de búsqueda -->
+                <div class="input-field">
+                    <input id="search" type="text" placeholder="Buscar destino...">
+                    <label for="search">Buscar</label>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <a href="./destinos.html">Destino
+                <img width="50" height="50" src="Img/destino.png" alt="">       
+            </a>
+            <a href="./planear3.html">Planifica
+                <img width="50" height="50" src="Img/planificador.png" alt="">
+            </a>
+            <a href="./reseñas.html">Reseñas
+                <img width="50" height="50" src="Img/buena-resena.png" alt="">
+            </a>
+            <a href="./foro.html">Foros
+                <img width="50" height="50" src="Img/conversacion.png" alt="">
+            </a>
+            <a href="./Contacto.html">Contacto
+                <img width="50" height="50" src="Img/usuario.png" alt="">
+            </a>
+        </nav>
+    <!-- FORMS Switch -->
+    <H4>Visualizar contenido</H4>
+    <div class="switch">
+        <label>
+            Off
+            <input id="toggleSwitch" type="checkbox">
+            <span class="lever"></span>
+            On
+        </label>
+    </div>
+
+        <main style="display: none;"> <!-- Inicialmente oculto -->
+            <div class="container">
+                <div class="destacado">
+                    <h2>Descubre los hospedajes más buscados</h2>
+                    <p>¡Bienvenido a nuestra guía de destinos! Aquí encontrarás los hospedajes más populares para tu próximo viaje.</p>
+
+                    <div class="row">
+                        <div class="col s6 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="Img/CostaCareyes.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Costa Careyes</span>
+                                </div>
+                                <div class="card-action">
+                                    <!-- Enlace para ver más detalles -->
+                                    <a href="https://www.expedia.com/Hotel-Search?adults=2&destination=Costa%20Careyes%2C%20Jalisco%2C%20M%C3%A9xico&endDate=2024-04-27&regionId=601718&semdtl=&sort=RECOMMENDED&startDate=2024-04-26&theme=&useRewards=false&userIntent=">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repetir estructura similar de tarjetas para otros destinos -->
+                        <div class="col s6 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="Img/NuevoVallarta.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Nuevo Vallarta</span>
+                                </div>
+                                <div class="card-action">
+                                    <!-- Enlace para ver más detalles -->
+                                    <a href="https://www.expedia.mx/Hotel-Search?adults=2&destination=Nuevo%20Vallarta%2C%20Nayarit%2C%20M%C3%A9xico&endDate=2024-04-27&regionId=500691&semdtl=&sort=RECOMMENDED&startDate=2024-04-26&theme=&useRewards=false&userIntent=">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s6 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="Img/Cancun.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Cancún, México</span>
+                                </div>
+                                <div class="card-action">
+                                    <!-- Enlace para ver más detalles -->
+                                    <a href="https://www.expedia.mx/Hotel-Search?adults=2&destination=Canc%C3%BAn%2C%20Quintana%20Roo%2C%20M%C3%A9xico&endDate=2024-04-27&regionId=179995&semdtl=&sort=RECOMMENDED&startDate=2024-04-26&theme=&useRewards=false&userIntent=">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <!-- Pie de página -->
+            <p class="center-align">Derechos de autor © 2024 - Guía de Destinos</p>
+        </div>
+    </footer>
+
+    <!-- Importar Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // Inicializar componentes de Materialize
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+
+            // Obtener el interruptor y el contenido principal
+            var toggleSwitch = document.getElementById('toggleSwitch');
+            var mainContent = document.querySelector('main');
+
+            // Funcionalidad del interruptor
+            toggleSwitch.addEventListener('change', function() {
+                // Si el interruptor está activado
+                if (toggleSwitch.checked) {
+                    // Hacer visible el contenido principal
+                    mainContent.style.display = 'block';
+                } else {
+                    // Ocultar el contenido principal
+                    mainContent.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
